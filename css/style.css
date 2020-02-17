@@ -193,4 +193,8 @@ b {
     font-size: 16px;
   }
 
+  .footer-copyright {
+     text-align: center;
+  }
+
 }
