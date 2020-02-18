@@ -185,6 +185,10 @@ b {
     text-align: center;
   }
 
+  .spotify1, .spotify2 {
+    width: 250px;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -195,6 +199,44 @@ b {
 
   .footer-copyright {
      text-align: center;
+  }
+
+  .spotify1, .spotify2 {
+    width: 300px;
+  }
+
+  .spotify1 {
+    padding-bottom: 30px;
+  }
+
+  .spotify2 {
+    padding-bottom: 15px;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 745px) and (max-width: 1024px) {
+
+  .spotify1, .spotify2 {
+    width: 300px;
+  }
+
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1500px) {
+
+  .spotify1, .spotify2 {
+    width:500px;
   }
 
 }
