@@ -104,14 +104,15 @@ h2 {
   background-color: #039be5;
 }
 
-/* About Section */
+/* Profile Section */
 
 .about {
   font-size: 20px;
 }
 
-#about-row {
-  padding-bottom: 20px;
+.profile-row {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 b {
