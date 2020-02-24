@@ -1,6 +1,8 @@
 $(document).ready(function(){
   $('.parallax').parallax();
 
+  $('.modal').modal();
+
   //smooth scrolling
   $('a[href*="#"]:not([href="#"])').click(function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
