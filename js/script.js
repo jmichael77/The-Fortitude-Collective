@@ -18,3 +18,13 @@ $(document).ready(function(){
   });
 
 });
+
+// $("#date-pick").click(function() {
+//   console.log("yo homie");
+//   $('.datepicker').datepicker();
+// });
+//
+// $("#time-pick").click(function() {
+//   console.log("yo homie");
+//   $('.timepicker').timepicker();
+// });
