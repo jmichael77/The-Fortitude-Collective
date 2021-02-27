@@ -137,6 +137,7 @@ b {
 #para-3 {
   margin-top: 3%;
   height: 300px;
+  transform: translate3d(-50%, 180px, 0px);
 }
 
 #para-3-img {
